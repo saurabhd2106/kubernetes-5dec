@@ -11,4 +11,4 @@ spec:
       targetPort: 3000
       nodePort: 30008
   selector:
-    app: nodeport-pod
+    app: sample-node-app
