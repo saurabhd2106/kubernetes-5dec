@@ -1,0 +1,13 @@
+
+
+    1. Create docker images of your frontend and backend app
+    2. Push them on Dockerhub
+    3. Create 1 Deployment with 1 replica and 1 pod of your frontend application
+    4. Create 1 Deployment with 1 replica and 1 pod of your backend application
+    5. Add two NodePort services to verify your frontend and backend application is running
+    6. Create a ClusterIp service for your backend service
+    7. Enable the communication of your frontend with backend using above ClusterIP
+    8. Verify whole application is running
+    9. Scale your application with 3 replicas
+
+
