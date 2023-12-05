@@ -19,3 +19,4 @@ kubectl get nodes -o wide
 kubectl get pods -o wide 
     - Get the detailed status of pods
 
+kubectl scale deployment <name of the deployment> --replicas=3
