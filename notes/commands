@@ -1,0 +1,14 @@
+kubectl get nodes
+    - This command will list all master and worker nodes
+
+kubectl get pods
+    - This command will list down all the pods running
+
+kubectl describe pod <name of the pod> 
+    - This command will give you a detailed description about the pod
+
+kubectl create -f <path and name of the file>
+    - This command will execute the spec file and deploy k8s objects
+
+kubectl delete -f <path and name of the file>
+    - Deletes the k8s objects defined in the spec file
