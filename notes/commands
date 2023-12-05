@@ -12,3 +12,10 @@ kubectl create -f <path and name of the file>
 
 kubectl delete -f <path and name of the file>
     - Deletes the k8s objects defined in the spec file
+
+kubectl get nodes -o wide
+    - Get the worker node status with wide option
+
+kubectl get pods -o wide 
+    - Get the detailed status of pods
+
